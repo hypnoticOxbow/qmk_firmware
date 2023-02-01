@@ -23,8 +23,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 #define MASTER_LEFT
-// #define MASTER_RIGHT
-// #define EE_HANDS
+/* #define MASTER_RIGHT */
+//#define EE_HANDS
+#define UNICODE_SELECTED_MODES UC_LNX
 
 #undef RGBLED_NUM
 #define RGBLIGHT_ANIMATIONS
@@ -35,5 +36,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_TOGGLE 2
 
-#define ONESHOT_TAP_TOGGLE 5  /* Tapping this number of times holds the key until tapped this number of times again. */
+#define ONESHOT_TAP_TOGGLE 45  /* Tapping this number of times holds the key until tapped this number of times again. */
 #define ONESHOT_TIMEOUT 5000  /* Time (in ms) before the one shot key is released */
