@@ -186,9 +186,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      _______ ,KC_TILD ,KC_LCBR ,KC_PLUS ,KC_AMPR  ,KC_PERC ,XXXXXXX ,                          XXXXXXX,KC_GRV  ,KC_7    ,KC_8    ,KC_9    ,KC_PERC ,KC_F12 ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     ESC_ALL ,KC_ASTR  ,KC_LPRN,KC_RPRN ,KC_MINS ,KC_DLR  ,KC_UP   ,                          XXXXXXX ,KC_0    ,KC_4    ,KC_5    ,KC_6    ,TAP_SYM ,XXXXXXX ,
+     ESC_ALL ,KC_ASTR  ,KC_LPRN,KC_RPRN ,KC_MINS ,KC_DLR  ,KC_UP   ,                          XXXXXXX ,KC_0    ,KC_4    ,KC_5    ,KC_6    ,KC_DLR  ,XXXXXXX ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LSFT ,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,TAP_SYM , TAP_RSYM ,      XXXXXXX ,XXXXXXX ,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,KC_RSFT ,
+     KC_LSFT ,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,TAP_SYM , TAP_RSYM ,      XXXXXXX ,XXXXXXX ,KC_DOT  ,KC_1    ,KC_2    ,KC_3    ,KC_HASH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
      _______ ,_______ ,_______ ,_______ ,     _______ ,    KC_SPC , TAP_RQWER,        _______ ,_______ ,    _______ ,     KC_EXLM ,KC_UNDS ,_______ ,XXXXXXX
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
