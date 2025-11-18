@@ -124,30 +124,30 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     ESC_ALL ,KC_1    ,KC_2    ,KC_3    ,KC_4    ,KC_5    ,                                            KC_1    , KC_2   ,KC_3    ,KC_4    ,KC_5    ,KC_TAB  ,
+     ESC_ALL ,XXXXXXX ,XXXXXXX ,KC_3    ,KC_4    ,KC_5    ,                                            KC_1    , KC_2   ,KC_3    ,KC_4    ,KC_5    ,KC_TAB  ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_TAB  ,KC_Q    ,KC_W    ,KC_E    ,KC_R    ,KC_T    ,KC_ENT  ,                          KC_ENT ,KC_Y     ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_BSLS ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_E    ,KC_R    ,KC_T    ,KC_ENT  ,                          KC_ENT ,KC_Y     ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_BSLS ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     CTRL_ESC,KC_A    ,KC_S    ,KC_D    ,KC_F    ,KC_G    ,BS_DEL  ,                          BS_DEL ,KC_H     ,KC_J    ,KC_K    ,KC_L    ,TAP_SYM ,CTRL_ESC,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_D    ,KC_F    ,KC_G    ,BS_DEL  ,                          BS_DEL ,KC_H     ,KC_J    ,KC_K    ,KC_L    ,TAP_SYM ,CTRL_ESC,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LSFT ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,TAP_SYM ,TAP_RSYM ,        KC_SCLN ,TAP_RSYM ,KC_N   ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_C    ,KC_V    ,KC_B    ,TAP_SYM ,TAP_RSYM ,        KC_SCLN ,TAP_RSYM ,KC_N   ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     XXXXXXX ,KC_LALT ,KC_RGUI ,TAP_NAV,     KC_LALT    ,KC_SPC   ,TAP_RQWER,        KC_SPC  ,TAP_RQWER,   KC_RGUI ,     TAP_NAV ,KC_ALGR ,KC_BRID ,KC_BRIU
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX,     TAP_RSYM     ,KC_SPC  ,KC_LSFT,         KC_SPC  ,TAP_RQWER,   KC_RGUI ,     TAP_NAV ,KC_ALGR ,KC_BRID ,KC_BRIU
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
 
   [_RQWERTY] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     ESC_ALL ,KC_1    ,KC_2    ,KC_3    ,KC_4    ,KC_5    ,                                            KC_1    , KC_2   ,KC_3    ,KC_4    ,KC_5    ,KC_TAB  ,
+     ESC_ALL ,XXXXXXX ,XXXXXXX ,KC_3    ,KC_4    ,KC_5    ,                                            KC_1    , KC_2   ,KC_3    ,KC_4    ,KC_5    ,KC_TAB  ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_TAB  ,KC_Y    ,KC_U    ,KC_I    ,KC_O    ,KC_P    ,KC_ENT,                            KC_ENT  , KC_Q   ,  KC_W  ,  KC_E  ,  KC_R  ,  KC_T  , KC_BSLS ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_I    ,KC_O    ,KC_P    ,KC_ENT,                            KC_ENT  , KC_Q   ,  KC_W  ,  KC_E  ,  KC_R  ,  KC_T  , KC_BSLS ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     CTRL_ESC,KC_H    ,KC_J    ,KC_K    ,KC_L    ,KC_QUOT ,BS_DEL,                            BS_DEL  ,  KC_A  ,  KC_S  ,  KC_D  ,  KC_F  , KC_G   ,CTRL_ESC,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_K    ,KC_L    ,KC_QUOT ,BS_DEL,                            BS_DEL  ,  KC_A  ,  KC_S  ,  KC_D  ,  KC_F  , KC_G   ,CTRL_ESC,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LSFT ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH , KC_BSLS, XXXXXXX,        XXXXXXX ,TAP_RSYM ,  KC_Z  ,  KC_X  ,  KC_C   , KC_V  , KC_B   , KC_RSFT ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_COMM ,KC_DOT  ,KC_SLSH , KC_BSLS, XXXXXXX,        XXXXXXX ,TAP_RSYM ,  KC_Z  ,  KC_X  ,  KC_C   , KC_V  , KC_B   , KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     XXXXXXX ,XXXXXXX ,KC_RGUI ,KC_SCLN,      KC_LALT ,    KC_SPC ,TAP_RQWER ,        KC_SPC ,TAP_RQWER  , KC_RGUI ,     KC_SCLN ,KC_ALGR ,KC_BRID ,KC_BRIU
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_SCLN,      KC_LALT ,    KC_SPC ,TAP_RQWER ,        KC_SPC ,TAP_RQWER  , KC_RGUI ,     KC_SCLN ,KC_ALGR ,KC_BRID ,KC_BRIU
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
@@ -168,29 +168,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_SYMB] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     ESC_ALL ,KC_F1   ,KC_F2   ,KC_F3   ,KC_F4   ,KC_F5   ,                                            KC_F6   ,KC_F7   ,KC_F8   ,S(KC_MINS),KC_F10  ,KC_F11 ,
+     ESC_ALL ,XXXXXXX ,XXXXXXX ,KC_F3   ,KC_F4   ,KC_F5   ,                                            KC_F6   ,KC_F7   ,KC_F8   ,S(KC_MINS),KC_F10  ,KC_F11 ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_COLON,KC_GRV  ,KC_7    ,KC_8    ,KC_9    ,KC_PERC ,XXXXXXX ,                          KC_ENT  ,KC_TILD ,KC_LCBR ,KC_RCBR ,KC_PLUS ,KC_AMPR ,KC_COLON ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_8    ,KC_9    ,KC_PERC ,XXXXXXX ,                          KC_ENT  ,KC_TILD ,KC_LCBR ,KC_RCBR ,KC_PLUS ,KC_AMPR ,KC_COLON ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     ESC_ALL ,KC_0    ,KC_4    ,KC_5    ,KC_6    ,KC_DLR  ,XXXXXXX ,                          BS_DEL  ,KC_ASTR ,KC_LPRN ,KC_RPRN ,KC_MINS ,TAP_SYM ,KC_QUOT,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_5    ,KC_6    ,KC_DLR  ,XXXXXXX ,                          BS_DEL  ,KC_ASTR ,KC_LPRN ,KC_RPRN ,KC_MINS ,TAP_SYM ,KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LSFT ,KC_DOT  ,KC_1    ,KC_2    ,KC_3    ,KC_HASH ,XXXXXXX ,XXXXXXX ,        XXXXXXX ,TAP_RSYM,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,KC_RSFT ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_2    ,KC_3    ,KC_HASH ,XXXXXXX ,XXXXXXX ,        XXXXXXX ,TAP_RSYM,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     _______ ,_______ ,_______ ,_______ ,     _______ ,    _______ ,KC_ENT ,         KC_SPC  ,TAP_RQWER,  _______ ,     KC_EXLM ,KC_UNDS ,_______ ,XXXXXXX
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,_______ ,     _______ ,    _______ ,KC_ENT ,         KC_SPC  ,TAP_RQWER,  _______ ,     KC_EXLM ,KC_UNDS ,_______ ,XXXXXXX
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
   [_RSYMB] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                                           ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     ESC_ALL ,KC_F1   ,KC_F2   ,KC_F3   ,KC_F4   ,KC_F5   ,                                            KC_F6   ,KC_F7   ,KC_F8   ,KC_F9   ,KC_F10  ,KC_F11 ,
+     ESC_ALL ,XXXXXXX ,XXXXXXX ,KC_F3   ,KC_F4   ,KC_F5   ,                                            KC_F6   ,KC_F7   ,KC_F8   ,KC_F9   ,KC_F10  ,KC_F11 ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐                         ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     _______ ,KC_TILD ,KC_LCBR ,KC_PLUS ,KC_AMPR  ,KC_PERC ,XXXXXXX ,                          XXXXXXX,KC_GRV  ,KC_7    ,KC_8    ,KC_9    ,KC_PERC ,KC_F12 ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_PLUS ,KC_AMPR  ,KC_PERC ,XXXXXXX ,                          XXXXXXX,KC_GRV  ,KC_7    ,KC_8    ,KC_9    ,KC_PERC ,KC_F12 ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤                         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     ESC_ALL ,KC_ASTR  ,KC_LPRN,KC_RPRN ,KC_MINS ,KC_DLR  ,KC_UP   ,                          XXXXXXX ,KC_0    ,KC_4    ,KC_5    ,KC_6    ,KC_DLR  ,XXXXXXX ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_RPRN ,KC_MINS ,KC_DLR  ,KC_UP   ,                          XXXXXXX ,KC_0    ,KC_4    ,KC_5    ,KC_6    ,KC_DLR  ,XXXXXXX ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LSFT ,KC_CIRC ,KC_LBRC ,KC_RBRC ,KC_EQUAL,KC_AT   ,TAP_SYM , TAP_RSYM ,      XXXXXXX ,XXXXXXX ,KC_DOT  ,KC_1    ,KC_2    ,KC_3    ,KC_HASH ,KC_RSFT ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_RBRC ,KC_EQUAL,KC_AT   ,TAP_SYM , TAP_RSYM ,      XXXXXXX ,XXXXXXX ,KC_DOT  ,KC_1    ,KC_2    ,KC_3    ,KC_HASH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     _______ ,_______ ,_______ ,_______ ,     _______ ,    KC_SPC , TAP_RQWER,        _______ ,_______ ,    _______ ,     KC_EXLM ,KC_UNDS ,_______ ,XXXXXXX
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,_______ ,     _______ ,    KC_SPC , TAP_RQWER,        _______ ,_______ ,    _______ ,     KC_EXLM ,KC_UNDS ,_______ ,XXXXXXX
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
